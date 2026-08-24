@@ -25,14 +25,27 @@ npm start
 http://127.0.0.1:3003
 
 📁 Структура проекта
-text
+
 node-server-homework/
-├── server.js          # Основной файл сервера
-├── data/
-│   └── users.json     # Данные для запроса ?users
-├── package.json       # Зависимости и скрипты
-├── README.md          # Документация
-└── .gitignore         # Исключаемые файлы
+├── src/
+│ ├── data/
+│ │ └── users.json # Данные пользователей
+│ ├── modules/
+│ │ └── users.js # Модуль для работы с users.json
+│ └── index.js # Главный файл сервера
+├── .gitignore
+├── README.md
+└── package.json
+
+Запрос-ответ
+
+http://127.0.0.1:3003/	            Hello, World!
+http://127.0.0.1:3003/?hello=Alice	Hello, Alice.
+http://127.0.0.1:3003/?hello=Ivan	Hello, Ivan.
+http://127.0.0.1:3003/?hello=	    Enter a name
+http://127.0.0.1:3003/?users	    JSON из users.json
+http://127.0.0.1:3003/?foo=bar	    Пустая страница (500)
+
 
  Технологии
 Node.js — среда выполнения
