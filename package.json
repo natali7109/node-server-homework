@@ -1,0 +1,24 @@
+{
+  "name": "server-homework",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+  "dev": "nodemon server.js",
+  "start": "node server.js"
+   },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/natali7109/node-server-homework.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/natali7109/node-server-homework/issues"
+  },
+  "homepage": "https://github.com/natali7109/node-server-homework#readme",
+  "devDependencies": {
+    "nodemon": "^3.1.14"
+  }
+}
